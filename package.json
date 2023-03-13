@@ -1,0 +1,19 @@
+{
+  "name": "integracao_wrike_node",
+  "version": "1.0.0",
+  "description": "API Intermediaria de integração do wrike com o netsuite",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "app": "nodemon API/app.js",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "fetch": "^1.1.0",
+    "pm2": "^5.2.2"
+  }
+}
