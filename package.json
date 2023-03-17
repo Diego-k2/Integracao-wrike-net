@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "API Intermediaria de integração do wrike com o netsuite",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "app": "nodemon API/app.js",
     "start": "node index.js"
