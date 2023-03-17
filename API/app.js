@@ -1,6 +1,6 @@
-import  express  from "express";
-import fetch from "node_fetch";
-import bodyParser from "body-parser";
+const express = require("express");
+const fetch = require("node-fetch");
+const bodyParser = require("body-parser");
 
 const app = express();
 const port = 3000;
